@@ -62,8 +62,8 @@ Como pode-se notar, há 5 vendas registradas em memória, todas com Id, Vendedor
 
 Para esse teste, foram feitas requisições via Swagger pelos Id 1,2,3,4,5 e 6. As respostas obtidas para os Ids 3 e 6 podem ser vistas nas imagens abaixo:
 
-![Resposta Id : 3](imagens\Buscar_3.png)
-![Resposta Id : 6](imagens\Buscar_6.png)
+![Resposta Id : 3](./imagens/Buscar_3.png)
+![Resposta Id : 6](./imagens/Buscar_6.png)
 
 
 Observando as respostas obtidas, concluí-se que o teste ocorreu corretamente. A resposta para venda de Id 3 resultou no retorno desse objeto, enquanto a resposta de Id 6 retornou um erro de NotFound, como se esperava.
@@ -88,19 +88,19 @@ Os resultados, em ordem, se encontram a seguir:
 ![Resposta Venda Sem Produtos](./imagens/Resgistro_Sem_Produtos.png)
 
 
-![Resposta Venda Com Produtos sem nome](imagens/Registro_Produto_Nome.png)
+![Resposta Venda Com Produtos sem nome](./imagens/Registro_Produto_Nome.png)
 
 
-![Resposta Venda Com Produtos sem id / id = 0](imagens\Registro_Produto_Id.png)
+![Resposta Venda Com Produtos sem id / id = 0](./imagens/Registro_Produto_Id.png)
 
 
-![Resposta Venda Vendedor sem nome](imagens\Registro_Vendedor_Nome.png)
+![Resposta Venda Vendedor sem nome](./imagens/Registro_Vendedor_Nome.png)
 
 
-![Resposta Venda Vendedor sem id / id = 0](imagens\Registro_Vendedor_Id.png)
+![Resposta Venda Vendedor sem id / id = 0](./imagens/Registro_Vendedor_Id.png)
 
 
-![Resposta Venda completa](imagens\Registro_Completo.png)
+![Resposta Venda completa](./imagens/Registro_Completo.png)
 
 
 Como visto, a tentativa de se cadastrar a venda com ausência de dados retorna um erro e o cadastro completo é feito corretamente.
@@ -123,25 +123,25 @@ Como visto, a tentativa de se cadastrar a venda com ausência de dados retorna u
 As cinco primeiras requisições devem retornar sucesso, uma vez que é permitida a atualização. A penúltima requisição deve retornar o erro "O Status atual não pode ser mudado para o novo Status!" e a última deve retornar "O Status Atual não pode ser alterado!":
 
 
-![Atualização 1](imagens\Atualizar_1.png)
+![Atualização 1](./imagens/Atualizar_1.png)
 
 
-![Atualização 2](imagens\Atualizar_2.png)
+![Atualização 2](./imagens/Atualizar_2.png)
 
 
-![Atualização 3](imagens\Atualizar_3.png)
+![Atualização 3](./imagens/Atualizar_3.png)
 
 
-![Atualização 4](imagens\Atualizar_4.png)
+![Atualização 4](./imagens/Atualizar_4.png)
 
 
-![Atualização 5](imagens\Atualizar_5.png)
+![Atualização 5](./imagens/Atualizar_5.png)
 
 
-![Atualização 6](imagens\Atualizar_6.png)
+![Atualização 6](./imagens/Atualizar_6.png)
 
 
-![Atualização 7](imagens\Atualizar_7.png)
+![Atualização 7](./imagens/Atualizar_7.png)
 
 
 - Teste ocorreu corretamente :white_check_mark: 
