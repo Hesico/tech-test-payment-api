@@ -85,7 +85,7 @@ Observando as respostas obtidas, concluí-se que o teste ocorreu corretamente. A
 
 Os resultados, em ordem, se encontram a seguir:
 
-![Resposta Venda Sem Produtos](imagens\Resgistro_Sem_Produtos.png)
+![Resposta Venda Sem Produtos](../imagens\Resgistro_Sem_Produtos.png)
 
 
 ![Resposta Venda Com Produtos sem nome](imagens\Registro_Produto_Nome.png)
